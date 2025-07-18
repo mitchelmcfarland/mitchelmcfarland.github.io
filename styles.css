@@ -1,0 +1,17 @@
+:root {
+    --text-color: black;
+    --background-color: white;
+}
+
+body.dark-mode {
+    --text-color: white;
+    --background-color: black;
+}
+
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
