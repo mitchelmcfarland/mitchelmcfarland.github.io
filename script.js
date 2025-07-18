@@ -1,4 +1,4 @@
-if (localStorage.getItem("theme") == "dark") {
+if (localStorage.getItem("theme") == "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)"))) {
     document.body.classList.add('dark-mode');
 }
 
