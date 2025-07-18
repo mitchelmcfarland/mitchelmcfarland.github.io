@@ -1,4 +1,5 @@
-if (localStorage.getItem("theme") == "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)"))) {
+if (localStorage.getItem("theme") == "dark" || 
+(!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
     document.body.classList.add('dark-mode');
 }
 
