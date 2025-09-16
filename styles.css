@@ -15,3 +15,13 @@ body {
   color: var(--text-color);
 }
 
+.theme-toggles {
+  position: fixed; 
+  top: 0.5vw; 
+  right: 0.5vw; 
+  background-color: rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+}
