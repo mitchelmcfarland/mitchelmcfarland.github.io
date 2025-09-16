@@ -10,7 +10,7 @@ body.dark-mode {
 
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: var(--background-color);
   color: var(--text-color);
 }
